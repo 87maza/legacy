@@ -5,7 +5,7 @@ module.exports = React.createClass({
   
 
   handleClick: function(){
-    alert('hello from legcomp');
+    this.setState({showText: !this.state.showText});
   },
 
   getInitialState: function(){
@@ -18,7 +18,7 @@ module.exports = React.createClass({
           <img src={this.props.imageUrl} alt="..."></img>
           <div className="caption">
             <h3>{this.props.header}</h3>
-            <p>{this.props.description}</p>
+            <p className={"dropdown-menu " + (this.state.showText ? "show" : "")}>{this.props.description}</p>
             <p>
               <LegacyButton userClicked={this.handleClick} 
                title={this.props.title} />
