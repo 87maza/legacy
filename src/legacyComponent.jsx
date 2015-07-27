@@ -13,7 +13,7 @@ module.exports = React.createClass({
   },
 
     render: function() {
-      return <div className="col-sm-6 col-md-4">
+      return <div className="col-xs-4 col-sm-5 col-md-6 col-lg-6">
         <div className="thumbnail">
           <img src={this.props.imageUrl} alt="..."></img>
           <div className="caption">

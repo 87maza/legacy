@@ -1,0 +1,34 @@
+body {
+    background-color: linen;
+}
+.centered
+{
+    text-align:center;
+}
+button{
+	font-size:1.55vw;
+}
+.dropdown-menu{
+	top:50%;
+	border: 5px dotted rgba(0,0,0,.15);
+	padding: 10px 9px;
+	word-wrap: break-word;
+	font-size: 1.5vw;
+}
+h3{
+	font-family:cursive;
+	font-size: 2.1vw;
+    text-align: center;
+}
+
+img{
+	padding: 1.5em;
+	 opacity: 1;
+   transition: opacity 1.25s ease-in-out;
+   -moz-transition: opacity 1.25s ease-in-out;
+   -webkit-transition: opacity 1.25s ease-in-out;
+}
+img:hover{
+	opacity: 0.5;
+}
+
