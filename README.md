@@ -7,10 +7,10 @@ How run locally:
  git clone or download repo via zip
 
  Cmd Line:
-'''npm install'''
+``npm install``
 
 Optional: Run
-gulp
+``gulp``
 
 You should not receive error, if it does please email/message me your error.
 
