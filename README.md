@@ -12,7 +12,7 @@ How run locally:
 Optional: Run
 ``gulp``
 
-You should not receive error, if it does please email/message me your error.
+You should not receive an error, if it does, please email/message me your error.
 
  Open index.html via browser
 
